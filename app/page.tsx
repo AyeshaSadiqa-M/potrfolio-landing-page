@@ -49,7 +49,7 @@ export default function Page() {
             <div className="hero-note"><span className="note-line" /> Based in Pakistan <span className="note-separator">/</span> Available worldwide</div>
           </div>
           <div className="hero-visual">
-            <div className="portrait-frame"><img src="/ayesha-portrait.png" alt="Portrait of Ayesha Sadiqa, a Computer Science graduate and aspiring software developer" /><div className="portrait-label"><span className="label-icon">✳</span><span><strong>Curious by nature</strong><small>Building with purpose</small></span></div></div>
+            <div className="portrait-frame"><div className="portrait-art" aria-hidden="true"><span className="portrait-shape portrait-shape-one" /><span className="portrait-shape portrait-shape-two" /><span className="monogram"><span>A</span><span>S</span></span><span className="portrait-caption">COMPUTER SCIENCE · 2026</span></div><div className="portrait-label"><span className="label-icon">✳</span><span><strong>Curious by nature</strong><small>Building with purpose</small></span></div></div>
             <div className="visual-orbit orbit-one" /><div className="visual-orbit orbit-two" />
             <div className="float-card"><span className="float-card-icon">✦</span><span><strong>Always learning</strong><small>One project at a time</small></span></div>
             <span className="visual-caption">01 <span>—</span> A LITTLE INTRODUCTION</span>
